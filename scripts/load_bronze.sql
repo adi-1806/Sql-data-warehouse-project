@@ -12,6 +12,8 @@
 --        - total bronze batch load
 --   4. If any statement fails, mysql usually stops execution unless
 --      the script is run with --force.
+--   5. We can use "stored procedures" if we execut it in microsoft sql server.
+--   6. In mysql, it is not allowed to load in stored procedures.
 -- ============================================================
 
 USE DWBarra_bronze;
